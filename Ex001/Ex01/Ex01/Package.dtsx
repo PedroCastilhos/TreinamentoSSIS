@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/30/2024 8:28:08 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="CTNDELLBMLFV04"
+  DTS:CreatorName="PAMPACOMPASSO\pedro.rosa"
+  DTS:DTSID="{48EC5E69-B961-4618-AF07-5782622044C6}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5270.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{4BEF47AE-D33E-4F04-A1CB-F508CD647757}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Carga para tabela"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Contêiner da Sequência"
+      DTS:DTSID="{B8067722-EA02-4E19-BA91-55F2607995F3}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga para tabela">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Carga para tabela\Tarefa Fluxo de Dados"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarefa Fluxo de Dados"
+          DTS:DTSID="{863E1880-966C-43F0-AD84-B069962897D3}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Tarefa Fluxo de Dados"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
+<!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
+<!--O pacote ainda poderá ser carregado normalmente, mas as informações de layout anteriores serão perdidas e o designer reorganizará automaticamente os elementos na superfície de design.-->
+<Objects
+  Version="8">
+  <!--Cada nó abaixo conterá propriedades que não afetam o comportamento em tempo de execução.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="185.333333333334,42.6666666666667"
+          Id="Package\Carga para tabela\Tarefa Fluxo de Dados"
+          TopLeft="53.0833280620474,51.5333283587298" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="307.333333333334,176.666666666667"
+          Size="307.333333333334,219.333333333334"
+          Id="Package\Carga para tabela"
+          TopLeft="300.624995520338,183.949996710718" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

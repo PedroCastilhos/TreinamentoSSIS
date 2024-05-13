@@ -1,0 +1,18 @@
+1. Carregar e Transformar Dados de um Arquivo CSV
+
+Este exercício o ajudará a se familiarizar com os componentes básicos do SSIS, como pacotes, fluxos de dados, tarefas, conexões e manipuladores de dados.
+
+Objetivos:
+
+Criar um pacote SSIS
+Importar um arquivo CSV como fonte de dados
+Transformar os dados usando manipuladores de dados
+Carregar os dados transformados em um destino
+Etapas:
+
+Crie um novo pacote SSIS no Visual Studio.
+Adicione uma tarefa de extração de dados do SQL Server e conecte-a a um arquivo CSV.
+Adicione um manipulador de dados de fluxo de dados para transformar os dados conforme necessário.
+Adicione uma tarefa de destino do SQL Server e conecte-a ao seu banco de dados SQL Server.
+Mapeie as colunas do arquivo CSV para as colunas da tabela de destino.
+Execute o pacote e verifique se os dados foram carregados e transformados com sucesso.

@@ -1,0 +1,9 @@
+Assistente de Origem (Source Assistant):
+O componente "Assistente de Origem" é usado para extrair dados de uma fonte de dados externa, como um banco de dados, arquivo, serviço web, etc.
+Ele geralmente é usado no início de um fluxo de dados para buscar os dados que serão processados e manipulados.
+O "Assistente de Origem" pode ser configurado para se conectar a diferentes tipos de fontes de dados e pode ter várias opções de configuração, dependendo da fonte de dados específica.
+
+Assistente de Destino (Destination Assistant):
+O componente "Assistente de Destino" é usado para carregar os dados extraídos de uma fonte de dados externa (ou de um processo interno) para um destino, como um banco de dados, arquivo, serviço web, etc.
+Ele geralmente é usado no final de um fluxo de dados para enviar os dados processados para o local desejado.
+Assim como o "Assistente de Origem", o "Assistente de Destino" pode ser configurado para se conectar a diferentes tipos de destinos e pode ter várias opções de configuração, dependendo do destino específico.
